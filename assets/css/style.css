@@ -1,0 +1,58 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+#header {
+  background-image: url('https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2-96777fac30950c470086ea4637fd579d6be19d5a8f2599500c6dcfd77fdfdd49.jpg');
+	height: 80vh;
+}
+
+.parallax-background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.banner
+{
+	overflow:auto; background-image: linear-gradient(to bottom, rgba(54,54,54,0.9), rgba(54,54,54,0.9));
+}
+
+.custom-navbar
+{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)); background-color:transparent;border:none;
+}
+.float
+{
+	float: right;
+}
+.white
+{
+	color:white;
+}
+.center
+{
+	text-align: center;
+}
+
+.speciality-header
+{
+	color:#fecc00; font-size:49px;
+}
+	
+.speciality-span
+{
+	padding-left:5px; color:black; font-size: 19px;
+}
+
+.speciality-para
+{
+	color:grey; padding-left:8px;
+}
