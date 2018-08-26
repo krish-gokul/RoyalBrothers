@@ -72,7 +72,7 @@ include ('config.php');
 
 				<div class="well well-lg" style="border-radius:0px; background-color:white;">
 					<b><h5><?php echo $row["Bike_Model"]; ?> </h5></b>
-					<img src="uploads/<?php echo $row["Bike_Image"];?>" class="img-responsive" style="height:300px; width:300px; padding-left:40px;">
+					<img src="uploads/<?php echo $row["Bike_Image"];?>" class="img-responsive center-block" style="height:250px; width: 250px;">
 			
 					<div style="text-align:center; border: 5px solid #f6f6f6;">
 					<?php $Available= $row["Is_Available"];
